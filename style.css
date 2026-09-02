@@ -1,0 +1,28 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7f4ec;color:#171717;font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;line-height:1.95}.hero{background:linear-gradient(135deg,#fffdf7 0%,#eee8d8 60%,#c9a64a 100%);border-bottom:3px solid #b38a2c;padding:90px 20px}.hero-inner,.section{max-width:1050px;margin:auto}.eyebrow{letter-spacing:.25em;color:#8a6a20;font-weight:bold}.hero h1{font-family:Georgia,serif;font-size:clamp(42px,7vw,82px);line-height:1.1;margin:15px 0;color:#161616}.hero h1 span{color:#9a7620}.hero-copy{font-size:20px}.section{padding:70px 24px;border-bottom:1px solid #d6c9a8}.section h2{font-family:Georgia,serif;font-size:32px;border-left:7px solid #b58b2d;padding-left:16px;color:#272015}.section p{font-size:16px}.accent{font-weight:bold;color:#8b681d;font-size:22px!important}.big{font-size:27px!important}.toc{background:#fffdf8;margin-top:30px;border:1px solid #d9cba9;box-shadow:0 10px 30px #0000000b}.toc ul{columns:2}.toc li{padding:5px}.image-slot{min-height:120px;border:1px dashed #b99a57;background:#eee9db;display:flex;align-items:center;justify-content:center;text-align:center;color:#76643e;margin:20px 0;padding:20px}.image-slot.large{min-height:260px}.champion-grid{min-height:300px}.cards,.role-grid,.lane-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}.card,.role,.lane{background:#fffdf8;border:1px solid #d8c79e;padding:22px;box-shadow:0 8px 25px #0000000c}.role-icon{width:58px;height:58px;border-radius:50%;background:#1b1b1b;border:2px solid #c29a3b;display:flex;align-items:center;justify-content:center;margin-bottom:10px}.role-icon img{width:38px;height:38px;object-fit:contain}.role-icon img[src$=".png"]{background:#2b2b2b}.skill-list{padding:0;list-style:none}.skill-list li{padding:10px 0;border-bottom:1px solid #ddd1b4}.lane h3,.role h3,.card h3{color:#8b681d;font-family:Georgia,serif}.gold-button{display:inline-block;padding:15px 26px;background:#b58b2d;color:white;text-decoration:none;font-weight:bold;border-radius:3px;box-shadow:0 5px 15px #8b681d44}.gold-button:hover{background:#8f6c20}.quiz{background:linear-gradient(180deg,#fffdf8,#eee7d5)}.question{background:#fff;border:1px solid #d5c39a;padding:28px;margin-top:25px;box-shadow:0 8px 30px #00000010}.question h3{margin-top:0;color:#725619}.choice{display:block;width:100%;text-align:left;margin:12px 0;padding:16px 18px;background:#f7f4ec;border:1px solid #cbb98b;color:#222;cursor:pointer;font-size:16px;transition:.15s}.choice:hover{background:#e8ddc3;border-color:#a77e22;transform:translateX(3px)}.result{margin-top:30px;background:#fff;border:2px solid #b58b2d;padding:30px}.result-image{min-height:300px;background:#eee9db;border:1px dashed #b99a57;display:flex;align-items:center;justify-content:center}.hidden{display:none!important}footer{text-align:center;padding:35px;background:#171717;color:#d2b15d}@media(max-width:700px){.toc ul{columns:1}.section{padding:45px 18px}.hero{padding:65px 18px}}
+.img{
+    display: block;
+    margin: 0 auto; 
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.img2{
+    width: 350px;
+}
+.image-slot {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-slot img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.result-image img {
+  width: 600px;
+  height: auto;
+}
